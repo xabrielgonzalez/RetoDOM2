@@ -1,0 +1,41 @@
+body {
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+li {
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.theme1 li:nth-child(even) {
+	background-color: #b4ddb4;
+}
+
+.theme2 li:nth-child(odd) {
+	background-color: #ffb347;
+}
+
+.theme1-btn {
+	background-color: #b4ddb4;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.theme2-btn {
+	background-color: #ffb347;
+	color: #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
